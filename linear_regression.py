@@ -67,7 +67,7 @@ rmse(y_test,y_pred)
 
 import matplotlib.pyplot as plt
 plt.plot(0,15)
-#plt.scatter(x_test,y_test)
-#plt.scatter(x_train,y_train)
+plt.scatter(x_test,y_test)
+plt.scatter(x_train,y_train)
 plt.scatter(x_test,y_pred)
 plt.show()
